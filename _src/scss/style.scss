@@ -1,0 +1,41 @@
+
+
+html {
+  height: 300vh;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.box-parent {
+  display: inline-flex;
+  padding: 100px;
+  // background-color: red;
+  top: calc(50vh - 150px);
+  left: 100px;
+  position: fixed;
+  perspective: 1000px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: teal;
+  border-radius: 6px;
+  position: relative;
+}
+
+.box--two {
+  height: 200px;
+  width: 200px;
+  background: rgb(216, 187, 59);
+  border-radius: 6px;
+  position: relative;
+}
+
+.box--three {
+  height: 200px;
+  width: 200px;
+  background: blueviolet;
+  border-radius: 6px;
+  position: relative;
+}
