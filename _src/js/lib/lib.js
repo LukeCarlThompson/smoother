@@ -89,7 +89,6 @@ function Smoother(...args) {
         animationFrame = requestAnimationFrame(animLoop);
       } else {
         this.animating = false;
-        console.log("finished smoother animation");
       }
 
   };
